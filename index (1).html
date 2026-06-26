@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>화학바이오 규제동향 뉴스레터 | 2026.06.26</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;background:#0f1923;color:#e0e6ed;line-height:1.7;min-height:100vh}
+.container{max-width:820px;margin:0 auto;padding:40px 20px 60px}
+.header{text-align:center;margin-bottom:40px}
+.header .label{display:inline-block;border:1.5px solid #3b82f6;color:#60a5fa;font-size:12px;font-weight:600;letter-spacing:2px;padding:6px 20px;border-radius:20px;margin-bottom:20px}
+.header h1{font-size:32px;font-weight:800;color:#fff;line-height:1.3;margin-bottom:12px}
+.header .date{font-size:15px;color:#64748b;font-weight:400}
+.section-card{background:#1a2736;border:1px solid #253548;border-radius:14px;margin-bottom:16px;overflow:hidden;cursor:pointer;transition:border-color 0.2s,box-shadow 0.2s}
+.section-card:hover{border-color:#3b5068;box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+.section-card.active{border-color:#3b82f6}
+.section-header{display:flex;align-items:center;padding:20px 24px;gap:16px}
+.section-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.icon-el{background:linear-gradient(135deg,#0d9488,#14b8a6)}
+.icon-nias{background:linear-gradient(135deg,#7c3aed,#a78bfa)}
+.icon-pfas{background:linear-gradient(135deg,#ea580c,#f97316)}
+.icon-inst{background:linear-gradient(135deg,#6366f1,#818cf8)}
+.icon-gov{background:linear-gradient(135deg,#dc2626,#ef4444)}
+.icon-insight{background:linear-gradient(135deg,#0284c7,#38bdf8)}
+.section-info{flex:1}
+.section-info h2{font-size:17px;font-weight:700;color:#f1f5f9;margin-bottom:2px}
+.section-info .sub{font-size:13px;color:#64748b}
+.section-count{background:#1e3a5f;color:#60a5fa;font-size:13px;font-weight:600;padding:4px 12px;border-radius:8px;flex-shrink:0}
+.section-arrow{color:#475569;font-size:18px;margin-left:8px;transition:transform 0.3s;flex-shrink:0}
+.section-card.active .section-arrow{transform:rotate(180deg)}
+.section-content{max-height:0;overflow:hidden;transition:max-height 0.4s ease}
+.section-card.active .section-content{max-height:3000px}
+.section-body{padding:0 24px 24px}
+.section-body .divider{height:1px;background:#253548;margin-bottom:20px}
+.item{background:#0f1923;border:1px solid #1e3044;border-radius:10px;padding:16px 18px;margin-bottom:10px}
+.item:last-child{margin-bottom:0}
+.item-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px}
+.item-title{font-size:14px;font-weight:700;color:#e2e8f0;flex:1}
+.badge{display:inline-block;padding:2px 10px;border-radius:10px;font-size:11px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.badge-urgent{background:rgba(239,68,68,0.15);color:#f87171;border:1px solid rgba(239,68,68,0.3)}
+.badge-caution{background:rgba(234,179,8,0.15);color:#fbbf24;border:1px solid rgba(234,179,8,0.3)}
+.badge-info{background:rgba(34,197,94,0.15);color:#4ade80;border:1px solid rgba(34,197,94,0.3)}
+.item-details{list-style:none;padding:0;margin:0}
+.item-details li{font-size:13px;color:#94a3b8;padding:2px 0 2px 14px;position:relative}
+.item-details li::before{content:"›";position:absolute;left:0;color:#475569;font-weight:700}
+.item-source{font-size:11px;color:#475569;margin-top:6px}
+.item-source a{color:#3b82f6;text-decoration:none}
+.insight-item{padding:10px 0 10px 18px;position:relative;font-size:13.5px;color:#cbd5e1;line-height:1.8;border-bottom:1px solid #1e3044}
+.insight-item:last-child{border-bottom:none}
+.insight-item::before{content:"▸";position:absolute;left:0;color:#38bdf8;font-weight:700}
+.footer{text-align:center;padding:30px 20px;color:#475569;font-size:12px;border-top:1px solid #1e3044;margin-top:30px}
+@media(max-width:600px){.container{padding:20px 12px 40px}.header h1{font-size:24px}.section-header{padding:16px}.section-body{padding:0 16px 16px}.section-info h2{font-size:15px}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<div class="label">WEEKLY REGULATORY BRIEF</div>
+<h1>화학바이오 규제동향<br>뉴스레터</h1>
+<div class="date">2026.06.26</div>
+</div>
+<div class="section-card" onclick="toggleSection(this)">
+<div class="section-header">
+<div class="section-icon icon-el">🧬</div>
+<div class="section-info"><h2>바이오의약품 E&amp;L</h2><div class="sub">Extractables &amp; Leachables</div></div>
+<div class="section-count">3건</div><div class="section-arrow">▾</div>
+</div>
+<div class="section-content"><div class="section-body"><div class="divider"></div>
+<div class="item">
+<div class="item-top"><div class="item-title">USP &lt;665&gt; 공식 시행 — 바이오의약품 소부장 E&amp;L 리스크 평가 의무화</div><span class="badge badge-urgent">긴급</span></div>
+<ul class="item-details">
+<li>2026년 5월 1일부로 USP &lt;665&gt; 정식 발효, 플라스틱 소부장·단일사용시스템(SUS) E&amp;L 평가 의무화</li>
+<li>USP &lt;1665&gt; 가이드라인 동시 적용, 제조공정 전 단계 리스크 관리 체계 요구</li>
+</ul>
+<div class="item-source">출처: Resolian / USP-NF</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">ICH Q3E 가이드라인 의견수렴 완료, 최종 조율 단계 진입</div><span class="badge badge-caution">주의</span></div>
+<ul class="item-details">
+<li>EMA 2026년 4월 의견 개요 발표, FDA 의견수렴(1월 30일 마감) 후 글로벌 조율 중</li>
+<li>E&amp;L 전 주기(lifecycle) 리스크 평가 프레임워크: ICH Q3A~D, M7, Q9 기반 통합 체계</li>
+</ul>
+<div class="item-source">출처: EMA</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">FDA Q3E 초안 가이드라인 — 글로벌 통합 E&amp;L 평가체계 제시</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>바이오의약품·의약품·조합의료기기 포괄하는 글로벌 평가 프레임워크 공개 (2025.12.01)</li>
+</ul>
+<div class="item-source">출처: Federal Register</div>
+</div>
+</div></div></div>
+<div class="section-card" onclick="toggleSection(this)">
+<div class="section-header">
+<div class="section-icon icon-nias">⚗️</div>
+<div class="section-info"><h2>포장재 NIAS</h2><div class="sub">Non-Intentionally Added Substances</div></div>
+<div class="section-count">4건</div><div class="section-arrow">▾</div>
+</div>
+<div class="section-content"><div class="section-body"><div class="divider"></div>
+<div class="item">
+<div class="item-top"><div class="item-title">EU PPWR 2026년 8월 12일 단계적 시행 — DoC·TD 제출 의무화</div><span class="badge badge-urgent">긴급</span></div>
+<ul class="item-details">
+<li>DoC·TD 의무 작성·보관, 요청 시 10일 이내 제출. 식품접촉 포장재 PFAS 제한 동시 적용</li>
+<li>개별 25ppb / 합산 250ppb / 총불소 50ppm — 별도 경과조치 없음</li>
+</ul>
+<div class="item-source">출처: KATI 농식품수출정보</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">화장품 포장재 PPWR 적용 위험도 최고 — 바이어 발주 차단 우려</div><span class="badge badge-urgent">긴급</span></div>
+<ul class="item-details">
+<li>DoC·TD 미비 시 EU 바이어 발주 보류·통관 차단·리콜 가능</li>
+</ul>
+<div class="item-source">출처: 코스인코리아</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">식약처, 2026년 8월 NIAS 분석 사례집 안내 예정</div><span class="badge badge-caution">주의</span></div>
+<ul class="item-details">
+<li>EU 총국에 직접 질의하여 얻은 NIAS 해석 답변 공유 예정, 업계 혼란 해소 목적</li>
+</ul>
+<div class="item-source">출처: 전자신문</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">EU FCM 플라스틱 규정 NIAS 독성 평가 의무화 (2026.09.17)</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>식품접촉 플라스틱 자재 NIAS에 대해 TTC 기반 독성학적 리스크 분석 의무 (EU 10/2011)</li>
+</ul>
+<div class="item-source">출처: Food Packaging Forum</div>
+</div>
+</div></div></div>
+<div class="section-card" onclick="toggleSection(this)">
+<div class="section-header">
+<div class="section-icon icon-pfas">⚠️</div>
+<div class="section-info"><h2>PFAS 글로벌 규제</h2><div class="sub">Per- &amp; Polyfluoroalkyl Substances</div></div>
+<div class="section-count">4건</div><div class="section-arrow">▾</div>
+</div>
+<div class="section-content"><div class="section-body"><div class="divider"></div>
+<div class="item">
+<div class="item-top"><div class="item-title">EU ECHA REACH PFAS 제한 최종 단계 — SEAC 의견수렴 완료 (2026.05.25)</div><span class="badge badge-urgent">긴급</span></div>
+<ul class="item-details">
+<li>SEAC 최종 의견 2026년 말 채택 예정 → EC REACH Annex XVII 개정 (2027년 채택 목표)</li>
+<li>10,000종 이상 PFAS 물질 규제 대상</li>
+</ul>
+<div class="item-source">출처: ECHA / Greenberg Traurig</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">EPA PFAS 음용수 기준 수정 제안 (2026.05.18)</div><span class="badge badge-caution">주의</span></div>
+<ul class="item-details">
+<li>PFHxS, PFNA, GenX, PFBS Hazard Index 기준 수정 제안, 7월 20일까지 의견 수렴</li>
+<li>PFOA/PFOS 기준 유지, 준수 기한 2031년까지 연장 옵션 허용</li>
+</ul>
+<div class="item-source">출처: US EPA</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">EU PPWR 식품접촉 포장재 PFAS 제한 시행 임박 (D-47일)</div><span class="badge badge-caution">주의</span></div>
+<ul class="item-details">
+<li>2026년 8월 12일부터 즉시 적용 — PFAS 함유 포장재 교체 또는 시험분석 착수 필요</li>
+</ul>
+<div class="item-source">출처: dpp-tool PPWR 가이드</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">한국 PFAS 수질기준 2028년 예정 — 현행 기준 미국 대비 최대 120배 느슨</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>현행: PFOA+PFOS 70ng/L / 미국: 각 4ng/L. 배출허용기준 등 후속 제도 미수립 상태</li>
+</ul>
+<div class="item-source">출처: 에너지데일리</div>
+</div>
+</div></div></div>
+<div class="section-card" onclick="toggleSection(this)">
+<div class="section-header">
+<div class="section-icon icon-inst">🏛️</div>
+<div class="section-info"><h2>유관기관 동향</h2><div class="sub">KTR, KCL, KATRI, KOTITI</div></div>
+<div class="section-count">2건</div><div class="section-arrow">▾</div>
+</div>
+<div class="section-content"><div class="section-body"><div class="divider"></div>
+<div class="item">
+<div class="item-top"><div class="item-title">KTR — 2026 글로벌 환경규제 대응 전략 세미나 진행</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>PPWR, PFAS, NIAS 대응 방안 안내, 중소기업 대상 1:1 현장 컨설팅 병행</li>
+</ul>
+<div class="item-source">출처: KTR 한국화학융합시험연구원</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">KATRI — PFAS 시험분석 서비스 운영 중</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>섬유·의류·생활용품 분야 PFAS 규제 대응 시험분석 서비스 제공 중</li>
+</ul>
+<div class="item-source">출처: KATRI</div>
+</div>
+</div></div></div>
+<div class="section-card" onclick="toggleSection(this)">
+<div class="section-header">
+<div class="section-icon icon-gov">🏢</div>
+<div class="section-info"><h2>정부 세미나·행사</h2><div class="sub">식약처, 환경부, 산업부</div></div>
+<div class="section-count">3건</div><div class="section-arrow">▾</div>
+</div>
+<div class="section-content"><div class="section-body"><div class="divider"></div>
+<div class="item">
+<div class="item-top"><div class="item-title">KOREA LAB Autumn 2026 — 분석화학·환경 전시·세미나 (예정)</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>PFAS, E&amp;L, NIAS 시험분석 관련 최신 기술 전시 포함 예상</li>
+</ul>
+<div class="item-source">출처: Korea Lab</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">글로벌 바이오 콘퍼런스(GBC) — 식약처 대표 행사 (일정 미확정)</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>ICH Q3E, 바이오시밀러, CDMO 규제 관련 세션 예정</li>
+</ul>
+<div class="item-source">출처: GBC Korea</div>
+</div>
+<div class="item">
+<div class="item-top"><div class="item-title">KOREA PHARM&amp;BIO 2026 (기개최 — 2026.03.31~04.03, KINTEX)</div><span class="badge badge-info">참고</span></div>
+<ul class="item-details">
+<li>이번 주 식약처·환경부 신규 공고 행사 없음</li>
+</ul>
+<div class="item-source">출처: KOREA PHARM&amp;BIO</div>
+</div>
+</div></div></div>
+<div class="section-card" onclick="toggleSection(this)">
+<div class="section-header">
+<div class="section-icon icon-insight">💡</div>
+<div class="section-info"><h2>FITI 시사점</h2><div class="sub">화학바이오본부 전략적 대응 포인트</div></div>
+<div class="section-count">3건</div><div class="section-arrow">▾</div>
+</div>
+<div class="section-content"><div class="section-body"><div class="divider"></div>
+<div class="insight-item">USP &lt;665&gt; 시행(5.1) 및 ICH Q3E 최종 조율 진행 → 국내 CDMO·바이오 제조사의 SUS 소부장 E&amp;L 시험 수요 급증 전망. FITI 화학바이오본부 E&amp;L 시험분석 역량 조기 홍보 및 수주 전략 수립 시급</div>
+<div class="insight-item">EU PPWR 8.12 시행까지 D-47일 — 식품·화장품 수출기업 DoC 작성 지원 및 PFAS/NIAS 시험 패키지 개발 시급. 식약처 NIAS 사례집(8월) 연계 세미나·컨설팅 사업 기회 존재</div>
+<div class="insight-item">EU REACH PFAS 제한(2027년 채택 목표) 사전 대응 필요 — 국내 기업 PFAS 인벤토리 구축 지원 서비스 개발 검토. 한국 수질기준 마련(2028년) 이전 선제적 시험분석 서비스 포지셔닝 기회</div>
+</div></div></div>
+<div class="footer">
+<p>FITI시험연구원 화학바이오본부 | 매주 금요일 자동 발행</p>
+<p style="margin-top:4px;color:#334155">© 2026 FITI 화학바이오본부 AI 리서치 어시스턴트</p>
+</div>
+</div>
+<script>
+function toggleSection(el){
+  const wasActive=el.classList.contains('active');
+  document.querySelectorAll('.section-card').forEach(c=>c.classList.remove('active'));
+  if(!wasActive) el.classList.add('active');
+}
+</script>
+</body>
+</html>
